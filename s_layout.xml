@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    >
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+
+        android:layout_width="365dp"
+        android:layout_height="80dp"
+        android:background="#ef2c2c"
+        android:textSize="10sp"
+        android:src="@drawable/settings"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+
+        />
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        >
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:background="#f231c2"
+                android:textSize="50sp"
+                android:layout_weight="1"
+                android:src="@drawable/settings"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                 android:background="#34e2c5"
+                android:textSize="50sp"
+                android:layout_weight="1"
+                android:src="@drawable/settings"
+                android:layout_marginTop="5dp"
+
+                android:layout_marginLeft="10dp"
+               />
+             <ImageView
+                    android:layout_width="0dp"
+                 android:layout_height="90dp"
+                 android:background="#cbfc44"
+                 android:textSize="50sp"
+                 android:src="@drawable/settings"
+                 android:layout_weight="1"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginTop="5dp"
+                 />
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/settings"
+        android:layout_marginLeft="10dp"
+
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:background="#f231c2"
+            android:textSize="50sp"
+            android:src="@drawable/settings"
+            android:layout_weight="1"
+
+
+
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:background="#34e2c5"
+            android:textSize="50sp"
+            android:src="@drawable/settings"
+            android:layout_weight="1"
+
+
+            android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:background="#cbfc44"
+            android:src="@drawable/settings"
+            android:textSize="50sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+
+
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="365dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:background="#48cc39"
+            android:src="@drawable/settings"
+            android:textSize="55sp" />
+
+        <ImageView
+            android:layout_width="365dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#1fc5f7"
+            android:src="@drawable/settings"
+
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
